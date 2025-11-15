@@ -1,0 +1,66 @@
+function setup() {
+createCanvas(600, 600);
+}
+function draw() {
+background(255);
+strokeWeight(2);
+
+//body
+fill(245, 213, 183);
+ellipse(300,600,200,380);
+
+//face
+ellipse(300,300, 200, 200);
+
+//left eye
+fill(255);
+ellipse(250,300, 50, 100);
+
+//right eye
+fill(255);
+ellipse(350,300, 50, 100);
+
+//left pupil
+fill(0);
+ellipse(250,300, 20, 50);
+
+//right pupil
+ellipse(350,300, 20, 50);
+
+//nose
+line(300,360, 300,280);
+
+//mouth
+line(280,375, 320,375);
+
+//ear
+fill(245, 213, 183);
+ellipse(410,310,50,70);
+
+//ear
+fill(245, 213, 183);
+ellipse(190,310,50,70);
+
+//hair
+fill(72, 49, 28);
+beginShape();
+vertex(270,199);
+vertex(330,280);
+vertex(338,250);
+vertex(385,330);
+vertex(375,360);
+vertex(385,390);
+vertex(375,420);
+vertex(385,450);
+vertex(395,430);
+vertex(405,450);
+vertex(410,420);
+vertex(420,390);
+vertex(410,360);
+vertex(420,330);
+vertex(385,220);
+vertex(320,170);
+endShape();
+
+point(270,199);
+}
