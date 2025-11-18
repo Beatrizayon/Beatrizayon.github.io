@@ -4,6 +4,7 @@ var img3;
 var img4;
 var img5;
 var img6;
+var img7;
 var ballx= 300;
 var bally= 300;
 var ballSize= 40;
